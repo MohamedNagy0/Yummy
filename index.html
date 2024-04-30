@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="This website made with love" />
+        <!--! Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="author" content="Mohamed Nagy" />
+        <meta
+            name="description"
+            content="Culinary haven where every dish tells a story and every bite takes you on a journey. Nestled in the heart of the city, our restaurant is a sanctuary for food lovers"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yummy Exam</title>
+        <link rel="icon" href="./img/icons/logo.png" />
+        <link rel="stylesheet" href="./css/all.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+
+    <body>
+        <!-- loader -->
+        <div
+            class="loading d-none h-100 w-100 justify-content-center align-items-center"
+        >
+            <span class="loader"></span>
+        </div>
+        <!-- loader -->
+        <!-- Start aside -->
+        <aside class="d-flex tr-700 z-3">
+            <div
+                class="aside-links d-flex h-100 flex-column justify-content-between px-4"
+            >
+                <ul
+                    class="list-unstyled d-flex flex-column justify-content-center pt-5 gap-3"
+                >
+                    <li class="search-link">
+                        <i class="fa-solid fa-magnifying-glass me-2 fs-14"></i>
+                        <a href="#main-section">Search</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-layer-group me-2 fs-14"></i>
+                        <a href="#main-section">Categories</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-location-dot me-2 fs-14"></i>
+                        <a href="#main-section">Area</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-book-open me-2 fs-14"></i>
+                        <a href="#main-section">Ingredients</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-signature me-2 fs-14"></i>
+                        <a href="#main-section">Contact Us</a>
+                    </li>
+                    <li class="active d-none hidden-btn"></li>
+                </ul>
+                <footer class="aside-footer mb-3">
+                    <div class="social-icons d-flex gap-2 pb-1">
+                        <a
+                            target="_blank"
+                            href="https://www.facebook.com/mohamednagy.mis01/"
+                            ><i class="fa-brands fa-facebook"></i
+                        ></a>
+                        <a
+                            target="_blank"
+                            href="https://twitter.com/MohamednagyMis"
+                            ><i class="fa-brands fa-x-twitter"></i
+                        ></a>
+                        <a
+                            target="_blank"
+                            href="https://github.com/MohamedNagy0"
+                            ><i class="fa-brands fa-github"></i
+                        ></a>
+                    </div>
+                    <p>
+                        &copy; Copyright
+                        <span class="yellow fw-bold">NAGY</span>. 2024 All
+                        Rights Reserved.
+                    </p>
+                </footer>
+            </div>
+            <div
+                class="aside-show px-3 py-4 d-flex flex-column justify-content-between align-items-center"
+            >
+                <a href="./index.html" class="d-flex yummy-logo flex-column">
+                    <h1
+                        class="d-flex flex-column justify-content-center align-items-center mb-0"
+                    >
+                        <span class="fw-bolder fs-1 red">Y</span>
+                        <span class="fs-6 mb-1">U</span>
+                        <span class="fs-6 mb-1">M</span>
+                        <span class="fs-6">M</span>
+                    </h1>
+                    <img src="./img/icons/logo.png" alt="Yummy logo" />
+                </a>
+                <i class="fa-solid aside-btn tr-700 fa-chevron-right fs-1"></i>
+                <i class="fa-solid change-mood fa-moon fs-4 pb-3"></i>
+            </div>
+        </aside>
+        <!-- End aside -->
+
+        <!-- Start Header -->
+        <header
+            class="header-section position-relative w-100 py-5 overflow-hidden"
+        >
+            <div class="circle position-absolute"></div>
+            <div class="container h-100 py-3">
+                <div class="row h-100 py-1">
+                    <div
+                        class="col-lg-6 d-flex flex-column position-relative justify-content-center align-items-center justify-content-lg-end align-items-lg-end"
+                    >
+                        <div class="square d-none d-lg-flex shadow-lg square-1">
+                            <img
+                                src="./img/bg/pnsgwing.com.png"
+                                class="w-100"
+                                alt="ready to eat"
+                            />
+                        </div>
+                        <div
+                            class="square d-none d-lg-flex shadow-lg square-2 overflow-hidden"
+                        >
+                            <img
+                                src="./img/bg/pngwssing.com.png"
+                                class="w-100"
+                                alt="ready to eat"
+                            />
+                        </div>
+                        <div class="square d-none d-lg-flex shadow-lg square-3">
+                            <img
+                                src="./img/bg/pngwing.com.png"
+                                class="w-100"
+                                alt="ready to eat"
+                            />
+                        </div>
+
+                        <img
+                            src="./img/bg/hero.png"
+                            class="w-100"
+                            alt="ready to eat"
+                        />
+                    </div>
+                    <div
+                        class="col-lg-6 order-lg-first d-flex flex-column justify-content-evenly align-items-center"
+                    >
+                        <h2
+                            class="d-flex flex-column content-caption justify-content-center align-items-center"
+                        >
+                            <span>WELCOME TO</span>
+                            <span>THE WORLD OF</span>
+                            <span
+                                ><span class="spacial-yummy">Yummy</span>
+                                FOOD</span
+                            >
+                        </h2>
+                        <p class="px-5 text-left fs-5">
+                            Culinary haven where every dish tells a story and
+                            every bite takes you on a journey. Nestled in the
+                            heart of the city, our restaurant is a sanctuary for
+                            food lovers, offering a tapestry of tastes that
+                            celebrate the richness of global cuisine.
+                        </p>
+                        <a
+                            href="#main-section"
+                            class="border-0 start-btn header-btn px-5 py-2 rounded-5"
+                        >
+                            Get Your Meal
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Main -->
+        <main id="main-section" class="my-3 py-5">
+            <!-- Start search section -->
+            <section class="search-section">
+                <div class="container">
+                    <div class="row my-5 gy-3">
+                        <div class="col-md-6">
+                            <input
+                                autocomplete="off"
+                                placeholder="Search By Meal Name"
+                                class="form-control p-2"
+                                type="search"
+                                id="searchNameInput"
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <input
+                                autocomplete="off"
+                                placeholder="Search By One Letter !"
+                                class="form-control p-2"
+                                type="search"
+                                id="searchLatterInput"
+                                maxlength="1"
+                            />
+                        </div>
+                    </div>
+                    <div class="row meals-display-container gy-4"></div>
+                </div>
+            </section>
+            <div class="information-meals">
+                <div class="container">
+                    <div class="row info-meals-container"></div>
+                </div>
+            </div>
+            <!-- End search section -->
+
+            <!-- Start category section -->
+            <section class="category-section d-none">
+                <div class="container">
+                    <div class="row gy-4 category-container"></div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row catItems gy-4 d-none"></div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row catInfoMeals gy-4 d-none"></div>
+                </div>
+            </section>
+            <!-- End category section -->
+
+            <!-- Start area section -->
+            <section>
+                <div class="container">
+                    <div class="row area-container gy-4 d-none"></div>
+                    <div class="row area-items gy-4"></div>
+                </div>
+            </section>
+            <!-- End area section -->
+
+            <!-- Start ingredients section -->
+            <section>
+                <div class="container">
+                    <div class="row ing-container gy-4 d-none"></div>
+                    <div class="row ing-items gy-4"></div>
+                </div>
+            </section>
+            <!-- End ingredients section -->
+
+            <!-- Start Contact section -->
+            <section class="d-none contact-section">
+                <div class="container">
+                    <div class="container">
+                        <div class="row">
+                            <form
+                                action="#"
+                                class="d-flex flex-column justify-content-between align-items-center"
+                            >
+                                <input
+                                    autocomplete="off"
+                                    id="userName"
+                                    type="text"
+                                    placeholder="Enter Your Name"
+                                    class="form-control mb-4 rounded-4 py-3 px-4 shadow"
+                                />
+                                <p
+                                    id="error"
+                                    class="error me-auto py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-regular fa-circle-xmark me-1"
+                                    ></i>
+                                    Example :
+                                    <span class="fw-semibold">Bryan</span>
+                                </p>
+                                <input
+                                    autocomplete="off"
+                                    id="userEmail"
+                                    type="email"
+                                    placeholder="Enter Your Email Address"
+                                    class="form-control mb-4 rounded-4 py-3 px-4 shadow"
+                                />
+                                <p
+                                    class="error me-auto py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-regular fa-circle-xmark me-1"
+                                    ></i>
+                                    Example :
+                                    <span class="fw-semibold"
+                                        >bryanJone@gmail.com</span
+                                    >
+                                </p>
+                                <input
+                                    autocomplete="off"
+                                    id="userPhone"
+                                    type="number"
+                                    placeholder="Enter Your Number"
+                                    class="form-control mb-4 rounded-4 py-3 px-4 shadow"
+                                />
+                                <p
+                                    class="error me-auto py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-regular fa-circle-xmark me-1"
+                                    ></i>
+                                    Example :
+                                    <span class="fw-semibold">0109458946</span>
+                                </p>
+                                <input
+                                    autocomplete="off"
+                                    id="userAge"
+                                    type="number"
+                                    placeholder="Enter Your Age"
+                                    class="form-control mb-4 rounded-4 py-3 px-4 shadow"
+                                />
+                                <p
+                                    class="error me-auto py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-regular fa-circle-xmark me-1"
+                                    ></i>
+                                    <span class="fw-semibold"
+                                        >Enter valid age</span
+                                    >
+                                </p>
+                                <input
+                                    autocomplete="off"
+                                    id="userPassword"
+                                    type="password"
+                                    placeholder="Password"
+                                    class="form-control mb-4 rounded-4 py-3 px-4 shadow"
+                                />
+                                <p
+                                    class="error me-auto py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-regular fa-circle-xmark me-1"
+                                    ></i>
+                                    Example :
+                                    <span class="fw-semibold"
+                                        >From 1 to 6 Numbers</span
+                                    >
+                                </p>
+                                <input
+                                    autocomplete="off"
+                                    id="UserConfirmPassword"
+                                    type="password"
+                                    placeholder="Confirm Password"
+                                    class="form-control mb-4 rounded-4 py-3 px-4 shadow"
+                                />
+                                <p
+                                    id="passwordAlert"
+                                    class="error me-auto py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-solid fa-triangle-exclamation fs-6 me-2"
+                                    ></i>
+                                    Password is not the same
+                                </p>
+                                <p
+                                    id="emptyAlert"
+                                    class="error py-1 ms-1 px-3 rounded-5 mb-2 d-none"
+                                >
+                                    <i
+                                        class="fa-solid fa-triangle-exclamation fs-6 me-2"
+                                    ></i>
+                                    All fields are required
+                                </p>
+                                <button
+                                    disabled
+                                    class="btn btn-outline-danger form-btn"
+                                    type="button"
+                                >
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact section -->
+
+            <div>
+                <div class="container">
+                    <div class="row trickyContainer d-none"></div>
+                </div>
+            </div>
+        </main>
+        <!-- End Main -->
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
