@@ -140,9 +140,10 @@ function getRecipes(arr) {
                 `${arr[i][`strMeasure${i}`]} of ${arr[i][`strIngredient${i}`]}`
             );
             ric = `
-<span>${ingredients
+<span class=" d-flex gap-1 flex-wrap">${ingredients
                 .map(
-                    (ing) => `<span class=" btn  btn-warning m-2">${ing}</span>`
+                    (ing) =>
+                        `<span class=" fs-6 rounded-4  p-2 bg-warning bg-opacity-50 m-2">${ing}</span>`
                 )
                 .join("")}</span>
 `;
@@ -180,8 +181,8 @@ function displayMealsInfo(allMealsParent, arr) {
                             arr[i].strCategory
                         }</span>
                     </h3>
-                    <h3>Recipes : <span>${ric}</span></h3>
-                    <h3 class="d-block">Tags : <span class="fs-5 fw-normal">${
+                    <h3>Recipes : ${ric}</h3>
+                    <h3 class="d-block mb-3">Tags : <span class="fs-5 fw-normal p-2 m-1 bg-danger bg-opacity-25 rounded-4">${
                         arr[i].strTags || "Not Available Now"
                     }</span></h3>
                     <a target="_blank" class="btn btn-success" href="${
@@ -690,7 +691,7 @@ function displayTrickyInfo(arr) {
                 }</span>
             </h3>
             <h3>Recipes : <span>${ric || "Not Available"}</span></h3>
-            <h3 class="d-block">Tags : <span class="fs-5 fw-normal">${
+            <h3 class="d-block mb-3">Tags : <span class="fs-5 fw-normal p-2 mx-1 bg-danger bg-opacity-25 rounded-4">${
                 arr[i].strTags || "Not Available Now"
             }</span></h3>
             <a target="_blank" class="btn btn-success" href="${
