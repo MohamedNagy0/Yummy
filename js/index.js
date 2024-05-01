@@ -182,7 +182,7 @@ function displayMealsInfo(allMealsParent, arr) {
                         }</span>
                     </h3>
                     <h3>Recipes : ${ric}</h3>
-                    <h3 class="d-block mb-3">Tags : <span class="fs-5 fw-normal p-2 m-1 bg-danger bg-opacity-25 rounded-4">${
+                    <h3 class="d-block mb-3">Tags : <span class="fs-6 fw-normal p-2 m-1 bg-danger bg-opacity-25 rounded-4">${
                         arr[i].strTags || "Not Available Now"
                     }</span></h3>
                     <a target="_blank" class="btn btn-success" href="${
