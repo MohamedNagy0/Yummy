@@ -130,6 +130,7 @@ function displayMeals(arr) {
     displayMealsInfo(allMealsParent, arr);
 }
 function getRecipes(arr) {
+    ric = "";
     for (let i = 0; i < arr.length; i++) {
         if (
             arr[i][`strIngredient${i}`] != "" &&
@@ -139,16 +140,15 @@ function getRecipes(arr) {
             ingredients.push(
                 `${arr[i][`strMeasure${i}`]} of ${arr[i][`strIngredient${i}`]}`
             );
-            ric = `
-<span class=" d-flex gap-1 flex-wrap">${ingredients
+        }
+    }
+    ric = `
+            <span class=" d-flex gap-1 flex-wrap">${ingredients
                 .map(
                     (ing) =>
                         `<span class=" fs-6 rounded-4  p-2 bg-warning bg-opacity-50 m-2">${ing}</span>`
                 )
-                .join("")}</span>
-`;
-        }
-    }
+                .join(" ")}</span>`;
 }
 function displayMealsInfo(allMealsParent, arr) {
     getRecipes(arr);
